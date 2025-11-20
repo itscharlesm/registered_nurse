@@ -1,13 +1,13 @@
 const flowers = {
-    sunflower: {
-        icon: '🌻',
-        name: 'Sunflower of Hope',
-        message: 'Just like the sunflower brings light and warmth, you will bring hope and healing to your patients. Your bright spirit and positive energy will be a source of comfort during their darkest days. Keep shining, Nurse! ☀️'
-    },
     tulip: {
         icon: '🌷',
         name: 'Tulip of New Beginnings',
         message: 'Today marks the beautiful beginning of your nursing career! Every patient you care for, every life you touch, is a new chapter in your incredible story. Embrace this journey with an open heart and gentle hands. 💕'
+    },
+    sunflower: {
+        icon: '🌻',
+        name: 'Sunflower of Hope',
+        message: "You're just like a sunflower because you bring light and warmth to me, and I know you will bring hope to your future patients. You will be the source of comfort in their darkest days. So keep shining, my nurse! ☀️"
     },
     rose: {
         icon: '🌹',
