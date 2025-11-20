@@ -112,7 +112,7 @@ body {
 
 .intro-card h1 {
     font-family: 'Dancing Script', cursive;
-    font-size: 3em;
+    font-size: 2em;
     background: linear-gradient(135deg, #ff69b4, #ff1493, #c71585);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
@@ -121,14 +121,14 @@ body {
 }
 
 .intro-card .subtitle {
-    font-size: 1.4em;
+    font-size: 1.1em;
     color: #ff69b4;
     font-weight: 700;
     margin-bottom: 15px;
 }
 
 .intro-card p {
-    font-size: 1.1em;
+    font-size: 0.85em;
     color: #666;
     margin-bottom: 30px;
     line-height: 1.7;
