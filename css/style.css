@@ -1,0 +1,492 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Quicksand', sans-serif;
+    overflow: hidden;
+    background: linear-gradient(135deg, #ffeef8 0%, #ffc1e0 50%, #e0c3fc 100%);
+    min-height: 100vh;
+}
+
+/* Floating medical/nursing elements */
+.particles {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    pointer-events: none;
+    z-index: 1;
+}
+
+.particle {
+    position: absolute;
+    font-size: 20px;
+    animation: float 15s infinite;
+    opacity: 0.3;
+}
+
+@keyframes float {
+
+    0%,
+    100% {
+        transform: translateY(0) translateX(0) rotate(0deg);
+        opacity: 0;
+    }
+
+    10% {
+        opacity: 0.6;
+    }
+
+    90% {
+        opacity: 0.6;
+    }
+
+    100% {
+        transform: translateY(-100vh) translateX(50px) rotate(360deg);
+        opacity: 0;
+    }
+}
+
+/* Intro Card */
+.intro-card {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: white;
+    padding: 60px 50px;
+    border-radius: 30px;
+    box-shadow: 0 20px 60px rgba(255, 105, 180, 0.3);
+    text-align: center;
+    max-width: 550px;
+    width: 90%;
+    z-index: 100;
+    animation: cardEnter 0.8s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+    border: 4px solid #ffb3d9;
+}
+
+@keyframes cardEnter {
+    from {
+        transform: translate(-50%, -50%) scale(0.5);
+        opacity: 0;
+    }
+
+    to {
+        transform: translate(-50%, -50%) scale(1);
+        opacity: 1;
+    }
+}
+
+.intro-card.hidden {
+    animation: cardExit 0.5s forwards;
+}
+
+@keyframes cardExit {
+    to {
+        transform: translate(-50%, -50%) scale(0.8);
+        opacity: 0;
+    }
+}
+
+.nurse-icon {
+    font-size: 80px;
+    margin-bottom: 20px;
+    animation: bounce 2s infinite;
+}
+
+@keyframes bounce {
+
+    0%,
+    100% {
+        transform: translateY(0);
+    }
+
+    50% {
+        transform: translateY(-20px);
+    }
+}
+
+.intro-card h1 {
+    font-family: 'Dancing Script', cursive;
+    font-size: 3em;
+    background: linear-gradient(135deg, #ff69b4, #ff1493, #c71585);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    margin-bottom: 20px;
+}
+
+.intro-card .subtitle {
+    font-size: 1.4em;
+    color: #ff69b4;
+    font-weight: 700;
+    margin-bottom: 15px;
+}
+
+.intro-card p {
+    font-size: 1.1em;
+    color: #666;
+    margin-bottom: 30px;
+    line-height: 1.7;
+}
+
+.proceed-btn {
+    background: linear-gradient(135deg, #ff69b4, #ff1493);
+    color: white;
+    border: none;
+    padding: 18px 50px;
+    font-size: 1.2em;
+    border-radius: 50px;
+    cursor: pointer;
+    font-weight: 700;
+    transition: all 0.3s;
+    box-shadow: 0 10px 25px rgba(255, 105, 180, 0.4);
+    font-family: 'Quicksand', sans-serif;
+}
+
+.proceed-btn:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 15px 35px rgba(255, 105, 180, 0.6);
+}
+
+/* Flower Garden */
+.flower-garden {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: none;
+    justify-content: center;
+    align-items: center;
+    z-index: 10;
+    overflow-y: auto;
+    padding: 40px 20px;
+}
+
+.flower-garden.active {
+    display: flex;
+}
+
+.garden-header {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.garden-header h2 {
+    font-family: 'Dancing Script', cursive;
+    font-size: 2.5em;
+    background: linear-gradient(135deg, #ff69b4, #ff1493);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    margin-bottom: 10px;
+}
+
+.garden-header p {
+    color: #ff1493;
+    font-size: 1.1em;
+    font-weight: 600;
+}
+
+.garden-wrapper {
+    width: 100%;
+    max-width: 1100px;
+}
+
+.garden-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+    padding: 20px;
+}
+
+.flower-item {
+    cursor: pointer;
+    transition: all 0.3s;
+    animation: flowerPop 0.6s cubic-bezier(0.68, -0.55, 0.265, 1.55) backwards;
+}
+
+.flower-item:nth-child(1) {
+    animation-delay: 0.1s;
+}
+
+.flower-item:nth-child(2) {
+    animation-delay: 0.2s;
+}
+
+.flower-item:nth-child(3) {
+    animation-delay: 0.3s;
+}
+
+.flower-item:nth-child(4) {
+    animation-delay: 0.4s;
+}
+
+.flower-item:nth-child(5) {
+    animation-delay: 0.5s;
+}
+
+.flower-item:nth-child(6) {
+    animation-delay: 0.6s;
+}
+
+.flower-item:nth-child(7) {
+    animation-delay: 0.7s;
+}
+
+.flower-item:nth-child(8) {
+    animation-delay: 0.8s;
+}
+
+.flower-item:nth-child(9) {
+    animation-delay: 0.9s;
+}
+
+@keyframes flowerPop {
+    from {
+        transform: scale(0) rotate(-180deg);
+        opacity: 0;
+    }
+
+    to {
+        transform: scale(1) rotate(0deg);
+        opacity: 1;
+    }
+}
+
+.flower-item:hover {
+    transform: scale(1.15) rotate(5deg);
+}
+
+.flower-icon {
+    font-size: 75px;
+    text-align: center;
+    background: white;
+    width: 130px;
+    height: 130px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 10px 30px rgba(255, 105, 180, 0.3);
+    transition: all 0.3s;
+    border: 4px solid #ffb3d9;
+    margin: 0 auto;
+}
+
+.flower-item:hover .flower-icon {
+    box-shadow: 0 15px 40px rgba(255, 105, 180, 0.5);
+    border-color: #ff69b4;
+}
+
+.flower-name {
+    text-align: center;
+    margin-top: 15px;
+    font-weight: 700;
+    color: #ff1493;
+    font-size: 1.1em;
+    text-shadow: 1px 1px 2px rgba(255, 255, 255, 0.8);
+}
+
+/* Modal */
+.modal {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(255, 105, 180, 0.3);
+    backdrop-filter: blur(10px);
+    display: none;
+    justify-content: center;
+    align-items: center;
+    z-index: 200;
+    animation: fadeIn 0.3s;
+    overflow-y: auto;
+    padding: 20px;
+}
+
+.modal.active {
+    display: flex;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
+}
+
+.modal-content {
+    background: white;
+    padding: 50px;
+    border-radius: 30px;
+    max-width: 550px;
+    width: 90%;
+    text-align: center;
+    box-shadow: 0 20px 60px rgba(255, 105, 180, 0.4);
+    animation: modalSlide 0.5s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+    position: relative;
+    border: 4px solid #ffb3d9;
+    margin: 20px;
+}
+
+@keyframes modalSlide {
+    from {
+        transform: translateY(-100px) scale(0.8);
+        opacity: 0;
+    }
+
+    to {
+        transform: translateY(0) scale(1);
+        opacity: 1;
+    }
+}
+
+.modal-flower {
+    font-size: 100px;
+    margin-bottom: 20px;
+    animation: flowerSpin 0.8s;
+}
+
+@keyframes flowerSpin {
+    from {
+        transform: rotate(-360deg) scale(0);
+    }
+
+    to {
+        transform: rotate(0deg) scale(1);
+    }
+}
+
+.modal h2 {
+    font-family: 'Dancing Script', cursive;
+    font-size: 2.5em;
+    background: linear-gradient(135deg, #ff69b4, #ff1493);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    margin-bottom: 20px;
+}
+
+.modal p {
+    font-size: 1.15em;
+    color: #555;
+    line-height: 1.9;
+    margin-bottom: 30px;
+}
+
+.close-btn {
+    background: linear-gradient(135deg, #ff69b4, #ff1493);
+    color: white;
+    border: none;
+    padding: 15px 45px;
+    font-size: 1.1em;
+    border-radius: 50px;
+    cursor: pointer;
+    font-weight: 700;
+    transition: all 0.3s;
+    font-family: 'Quicksand', sans-serif;
+}
+
+.close-btn:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 10px 25px rgba(255, 105, 180, 0.4);
+}
+
+/* Hearts animation */
+.heart {
+    position: absolute;
+    font-size: 25px;
+    animation: hearts 3s linear;
+    pointer-events: none;
+}
+
+@keyframes hearts {
+    0% {
+        transform: translateY(0) scale(0);
+        opacity: 0;
+    }
+
+    50% {
+        opacity: 1;
+    }
+
+    100% {
+        transform: translateY(-100px) scale(1);
+        opacity: 0;
+    }
+}
+
+/* Stethoscope decoration */
+.stethoscope-decoration {
+    position: absolute;
+    font-size: 40px;
+    opacity: 0.1;
+    animation: rotate 20s linear infinite;
+}
+
+.stethoscope-decoration:nth-child(1) {
+    top: 10%;
+    left: 10%;
+}
+
+.stethoscope-decoration:nth-child(2) {
+    top: 20%;
+    right: 15%;
+    animation-direction: reverse;
+}
+
+.stethoscope-decoration:nth-child(3) {
+    bottom: 15%;
+    left: 20%;
+}
+
+.stethoscope-decoration:nth-child(4) {
+    bottom: 20%;
+    right: 10%;
+    animation-direction: reverse;
+}
+
+@keyframes rotate {
+    from {
+        transform: rotate(0deg);
+    }
+
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+@media (max-width: 768px) {
+    .garden-container {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 25px;
+    }
+
+    .flower-icon {
+        width: 110px;
+        height: 110px;
+        font-size: 65px;
+    }
+
+    .intro-card h1 {
+        font-size: 2.2em;
+    }
+
+    .modal-content {
+        padding: 40px 30px;
+    }
+
+    .garden-header h2 {
+        font-size: 2em;
+    }
+}
