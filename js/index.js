@@ -32,7 +32,7 @@ const flowers = {
     anemone: {
         icon: '🌸',
         name: 'Anemone of Protection',
-        message: 'You are now a guardian of health and life. Like the anemone that protects delicate sea creatures, you will shield your patients with expert care, watchful eyes, and a protective heart. You are their safe haven! 🛡️'
+        message: 'Kabalo baka na ang anemone kay they protect delicate seas creatures? Same saimo, puhon kabalo ko na ampingan nimo ang mga patients nimo kay kabalo ko soft jd ka by. Basking pag kusog ka mamalikas (based saimo) pero I know kabalo jd ka mupalangga. And blessed sad ko sa imuhang care. 🛡️'
     },
     aster: {
         icon: '🏵️',
