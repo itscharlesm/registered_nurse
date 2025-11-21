@@ -27,7 +27,7 @@ const flowers = {
     daisy: {
         icon: '🌼',
         name: 'Daisy of Joy',
-        message: 'Never lose your sense of wonder and joy! Your smile can brighten a patient\'s day more than any medicine. Keep that cheerful spirit alive—it\'s one of your greatest tools for healing! 😊'
+        message: 'Corny man kayo paminawon, pero you make my days lighter, and I hope I can bring that same happiness into yours. Ganahan kaayo ko makita imuhang smile and kabalo ko kanang smile nimo maka brighten nag day sa mga patient nimo! So I hope kanang smile nimo is tinuod, ayaw ifake if ma sad ka. Okay ra ma sad, basta you have me ha 😊'
     },
     anemone: {
         icon: '🌸',
