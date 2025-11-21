@@ -2,7 +2,7 @@ const flowers = {
     tulip: {
         icon: '🌷',
         name: 'Tulip of New Beginnings',
-        message: 'Today marks the beautiful beginning of your nursing career! Every patient you care for, every life you touch, is a new chapter in your incredible story. Embrace this journey with an open heart and gentle hands. 💕'
+        message: "Today marks the beautiful beginning of your nursing career byy! You may start slow but don't give up on what you want. Ana gani sila 'It's a blessing to be tired in pursuit of a challenge of your own choosing'. And remember you have me sa imong fresh start. 💕"
     },
     sunflower: {
         icon: '🌻',
