@@ -17,7 +17,7 @@ const flowers = {
     carnation: {
         icon: '🌺',
         name: 'Carnation of Gratitude',
-        message: 'Your patients may not always say it, but your care means everything. Thank you for the countless hours of study, the sacrifices you\'ve made, and the love you\'ll give. You are appreciated beyond measure, dear Nurse! 🙏'
+        message: 'Di man sa feeler ha pero I know ga care ka saako kay ma feel nako. Thankful kaayo ko ana by. Sa pasimpleng ingat ka, sa pasimpleng pag ask kamusta ka, lami jd kaayo na sa feeling and I know sa sunod daghan mag thank you saimo. Excited nako sunduon ka saimo workplace and madungog how amazing my nurse iah is. 🙏'
     },
     iris: {
         icon: '🪻',
