@@ -37,7 +37,7 @@ const flowers = {
     aster: {
         icon: '🏵️',
         name: 'Aster of Excellence',
-        message: 'Asters symbolize patience and elegance—qualities you\'ve demonstrated throughout your journey. You didn\'t just pass an exam; you proved you have what it takes to be an exceptional nurse. We\'re so proud of you! 🌟'
+        message: 'Ang asters baya daw nagpasabot ug patience ug elegance, sama sa imong gipakita sa imong journey. Wala lng ka nipasar sa exam by kundi, you proved that you have what it takes to be an exceptional nurse. Again, Congratulations byyyy! Late naman ko ni abot saimo pero just know PROUD KAAYO KO SAIMO! 🌟'
     }
 };
 
