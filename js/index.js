@@ -2,7 +2,7 @@ const flowers = {
     tulip: {
         icon: '🌷',
         name: 'Tulip of New Beginnings',
-        message: "Today marks the beautiful beginning of your nursing career byy! You may start slow but don't give up on what you want. Ana gani sila 'It's a blessing to be tired in pursuit of a challenge of your own choosing'. And remember you have me sa imong fresh start. 💕"
+        message: 'Today marks the beautiful beginning of your nursing career byy! You may start slow but don\'t give up on what you want. Ana gani sila \'It\'s a blessing to be tired in pursuit of a challenge of your own choosing\'. And remember you have me sa imong fresh start. 💕'
     },
     sunflower: {
         icon: '🌻',
@@ -22,7 +22,7 @@ const flowers = {
     iris: {
         icon: '🪻',
         name: 'Iris of Courage',
-        message: 'You possess the courage to face difficult situations, the wisdom to make critical decisions, and the faith to believe in recovery. Trust your training, trust yourself. You\'ve got this, Nurse! 💪'
+        message: 'Bilib kaayo ko saimo by kay naa kay courage to face difficult situations, ga admire jd ko saimong courage na kanang dili ka mag salig sauban sa pag face ug problems. I know strong ka but remind lng taka na you have me. It\'s okay to depend sometimes. You\'ve got this, Future Nurse! 💪'
     },
     daisy: {
         icon: '🌼',
