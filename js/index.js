@@ -12,7 +12,7 @@ const flowers = {
     rose: {
         icon: '🌹',
         name: 'Rose of Compassion',
-        message: 'Grabe imuhang compassion ug dedication by that makes you extraordinary person. Rose akong ganahan igive saimo kay ganahan ko sa simplicity sa beauty sa rose. It is also to remind na pretty ka naturally. ❤️'
+        message: 'Grabe imuhang compassion ug dedication byyy that makes you an extraordinary person. Rose akong ganahan igive saimo kay ganahan ko sa simplicity sa beauty sa rose. It is also to remind na pretty ka naturally. ❤️'
     },
     carnation: {
         icon: '🌺',
