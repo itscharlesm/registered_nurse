@@ -12,7 +12,7 @@ const flowers = {
     rose: {
         icon: '🌹',
         name: 'Rose of Compassion',
-        message: 'Grabe imuhang compassion ug dedication byyy that makes you an extraordinary person. Rose akong ganahan igive saimo kay ganahan ko sa simplicity sa beauty sa rose. It is also to remind na pretty ka naturally. ❤️'
+        message: 'Grabe imuhang compassion ug dedication byyy that makes you an extraordinary person. Rose akong ganahan igive saimo kay ganahan ko sa simplicity sa beauty sa rose. It is also to remind you na you are naturally pretty. ❤️'
     },
     carnation: {
         icon: '🌺',
@@ -32,12 +32,12 @@ const flowers = {
     anemone: {
         icon: '🌸',
         name: 'Anemone of Protection',
-        message: 'Kabalo baka na ang anemone kay they protect delicate seas creatures? Same saimo, puhon kabalo ko na ampingan nimo ang mga patients nimo kay kabalo ko soft jd ka by. Basking pag kusog ka mamalikas (based saimo) pero I know kabalo jd ka mupalangga. And blessed sad ko sa imuhang care. 🛡️'
+        message: 'Kabalo baka na ang anemone kay they protect delicate sea creatures? Same saimo, puhon kabalo ko na ampingan nimo ang mga patients nimo kay kabalo ko soft jd ka by. Basking pag kusog ka mamalikas (based saimo) pero I know kabalo jd ka mupalangga. And blessed sad ko sa imuhang care. 🛡️'
     },
     aster: {
         icon: '🏵️',
         name: 'Aster of Excellence',
-        message: 'Ang asters baya daw nagpasabot ug patience ug elegance, sama sa imong gipakita sa imong journey. Wala lng ka nipasar sa exam by kundi, you proved that you have what it takes to be an exceptional nurse. Again, Congratulations byyyy! Late naman ko ni abot saimo pero just know PROUD KAAYO KO SAIMO! 🌟'
+        message: 'Ang aster baya daw nagpasabot ug patience ug elegance, just like sa imong gipakita sa imong journey. Wala lng ka nipasar sa exam byyy kundi, you proved that you have what it takes to be an exceptional nurse. Again, Congratulations byyyy! Late naman ko ni abot saimo pero just know PROUD KAAYO KO SAIMO! 🌟'
     }
 };
 
